@@ -11,6 +11,7 @@ Please clone this repository and submit your project either as a .zip or a githu
 
   -- a static design is provided in cashBack_design.zip if helpful
   - bonus points for error handling, tests, code comments in proper English
+  - bonus points for admin role and extra view which allows assigning a value and other metadata to the submitted photos
 
 > Good luck!
 
