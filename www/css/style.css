@@ -1,0 +1,34 @@
+/* Empty. Add your own CSS if you like */
+
+.container{
+	background-color: grey;
+}
+
+.scrollCanvas{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.image{
+  	width: 100%;
+  	height: 300px;
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center, center;
+}
+
+div.upload {
+    width: 157px;
+    height: 57px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png);
+    overflow: hidden;
+}
+
+div.upload input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}

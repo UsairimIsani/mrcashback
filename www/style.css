@@ -1,0 +1,156 @@
+h1,h2,h3,h4,h5,h6,a,p,li,ul {
+	font-family: "Roboto";
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.row.menu {
+	margin:0px;
+}
+.body_mcb {
+	display: block;
+}
+.container {
+    background-color: transparent !important;
+}
+.body_mcb {
+    background: -webkit-linear-gradient(hsla(162, 69%, 22%, 0.79),#070303),url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    height: 100%;
+    background-attachment: fixed;
+}    
+.logo  h1{
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 50px;
+}
+.input_btn {
+	width: ;
+	margin: auto;
+	margin-top: 70px;
+}
+.facebook_btn {
+	padding: 10px 33px;
+	background: #3b5998;
+}
+a.facebook_btn, a.email_btn {
+	color: #fff;
+}
+
+input {
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background: transparent;
+    padding: 10px 0px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #898989;
+    box-shadow: 0px 0px 0px 0px #fff;
+    width: 80%;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+input:focus {
+	border-bottom: 1px solid #fff;
+	outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.login_btn {
+	    margin-top: 20px;
+    background: #3b863e;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 0%;
+    color: white;
+    width: 80%;
+}
+.facebook_btn {
+    background: #3b5998;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.sign_up_btn {
+	color: #fff;
+    margin-top: 24px;
+    display: block;
+    padding-bottom: 30px;
+}
+.show_onpage {
+	background: #00111a;
+	box-shadow: 0px 0px 10px 2px #000;
+}
+.show_onpage img {
+	height: 80px;
+	float: right;
+	margin-right: 50px;
+}
+.show_onpage h1, .show_onpage p {
+	float: left;
+	color: #fff;
+	margin-left: 50px;
+	font-weight: 100;
+}
+.show_onpage p {
+	font-size: 18px;
+	padding-top: 30px;
+}
+.pulse_btn {
+ position: relative;
+    top: 180px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgb(100, 116, 112);
+    -webkit-animation: pulse 2s infinite;
+    background-image: url("img/camera.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    border: 1px solid #8f8f8f;
+}
+
+.pulse_btn:hover {
+  -webkit-animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+  }
+}
+
+.pulse_btn input { display:none }

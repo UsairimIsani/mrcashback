@@ -1,0 +1,23 @@
+<div class="body_mcb">
+		<div ckass="container-fluid">
+			<div class="row menu">
+				<div class="col-xs-12 show_onpage">
+					<h1>Sign in</h1>
+					<img src="img/logo.svg">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row input_btn text-center">
+				<div class="col-xs-12 logo">
+					<h1>mr. CashBack</h1>
+				</div>
+				<form method="post">
+			    	<input ng-model="vm.member.email" type="text" name="u" placeholder="e-Mail" required="required" />
+			        <input ng-model="vm.member.password" type="password" name="p" placeholder="Password" required="required" />
+			        <input ng-model="vm.member.password2" type="password" name="p" placeholder="Repeat Password" required="required" />
+			        <button ng-click="vm.signup()" type="submit" class="login_btn">Inscrie-te</button>
+	   		    </form>
+			</div>
+		</div>	
+	</div>

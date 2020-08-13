@@ -1,0 +1,36 @@
+<ion-view view-title="Admin">
+    <ion-content>
+        <div class="body-tumblr list">
+            <div class="item item-body">
+
+                <div class="item item-body">
+                    <ion-slide-box class>
+
+                        <ion-slide ng-repeat="bon in vm.bonuri">
+                            <label class="body-tumblr item-input">
+                    <span class="input-label">Nume local</span>
+                    <input type="text" ng-model="bon.store_name" ng-change="vm.shitChanged(bon)">
+                    </label>
+                            <label class="body-tumblr item-input">
+                    <span class="input-label">Număr bon</span>
+                    <input type="text" ng-model="bon.number" ng-change="vm.shitChanged(bon)">
+                    </label>
+                            <label class="body-tumblr item-input">
+                    <span class="input-label">Valoare</span>
+                    <input type="text" ng-model="bon.value" ng-change="vm.shitChanged(bon)">
+                    </label>
+                            <button class="button button-block button-positive" ng-click="vm.salveazaBon(bon)" ng-disabled="!bon.schimbat">Salvează bonul</button>
+                            <div class="container scrollCanvas" ng-if="slideVisible($index)">
+                                <ion-scroll class="scrollCanvas" zooming="true" min-zoom="1" direction="xy" locked="false">
+                                    <div class="image" style="background-image: url( {{bon.image_url}} )"></div>
+                                </ion-scroll>
+                            </div>
+                            <div>&nbsp;</div>
+                        </ion-slide>
+
+                    </ion-slide-box>
+                </div>
+
+            </div>
+    </ion-content>
+</ion-view>

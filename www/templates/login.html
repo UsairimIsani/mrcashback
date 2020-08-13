@@ -1,0 +1,26 @@
+    <div class="body_mcb">
+	<div ckass="container-fluid">
+		<div class="row menu">
+			<div class="col-xs-12 show_onpage">
+				<h1>Login</h1>
+				<img src="img/logo.svg">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row input_btn text-center">
+			<div class="col-xs-12 logo">
+				<h1>mr. CashBack</h1>
+			</div>
+			<form method="post">
+		    	<input ng-model="vm.member.email" type="text" name="u" placeholder="e-Mail" required="required" />
+		        <input ng-model="vm.member.password" type="password" name="p" placeholder="Password" required="required" />
+		        <button ng-click="vm.loginEmail()" type="submit" class="login_btn">Login</button>
+   		    </form>
+			<a ng-click="vm.login()" href="#" class="facebook_btn">Login cu Facebook</a>
+			<div class="col-xs-12 col_btn">
+				<a ng-click="vm.create()" href="#" class="sign_up_btn">Crează cont</a>
+			</div>
+		</div>
+	</div>	
+</div>
